@@ -19,3 +19,5 @@ sentencepiece>=0.1.99
 safetensors>=0.4.3
 huggingface-hub>=0.23
 protobuf>=4.25
+
+torch
