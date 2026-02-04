@@ -1,0 +1,21 @@
+# Core
+numpy>=1.26
+pandas>=2.1
+tqdm>=4.66
+
+# Deep learning + HF
+transformers>=4.40
+accelerate>=0.28
+datasets>=2.18
+evaluate>=0.4
+scikit-learn>=1.4
+
+# NER / GLiNER
+gliner>=0.2.8
+gliner2>=0.1.0
+
+# Utilities (spesso richieste dai modelli/Tokenizer)
+sentencepiece>=0.1.99
+safetensors>=0.4.3
+huggingface-hub>=0.23
+protobuf>=4.25
