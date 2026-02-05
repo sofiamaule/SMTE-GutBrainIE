@@ -112,13 +112,6 @@
         "label": "microbiome",
         "text_span": "gut microbiota",
         "location": "abstract"
-      },
-      {
-        "start_idx": 663,
-        "end_idx": 680,
-        "label": "chemical",
-        "text_span": "bacterial proteins",
-        "location": "abstract"
       }
     ]
   },
@@ -1326,20 +1319,6 @@
         "label": "chemical",
         "text_span": "microbiome-generated flavonoid metabolites",
         "location": "abstract"
-      },
-      {
-        "start_idx": 1433,
-        "end_idx": 1460,
-        "label": "chemical",
-        "text_span": "dietary flavonoid components",
-        "location": "abstract"
-      },
-      {
-        "start_idx": 1483,
-        "end_idx": 1505,
-        "label": "chemical",
-        "text_span": "therapeutic metabolites",
-        "location": "abstract"
       }
     ]
   },
@@ -1679,13 +1658,6 @@
         "end_idx": 1831,
         "label": "DDF",
         "text_span": "alcohol overconsumption",
-        "location": "abstract"
-      },
-      {
-        "start_idx": 1689,
-        "end_idx": 1697,
-        "label": "chemical",
-        "text_span": "cytokines",
         "location": "abstract"
       }
     ]
@@ -2610,13 +2582,6 @@
         "label": "DDF",
         "text_span": "antibiotic-induced gut dysbiosis",
         "location": "abstract"
-      },
-      {
-        "start_idx": 1603,
-        "end_idx": 1623,
-        "label": "chemical",
-        "text_span": "serotonin transporter",
-        "location": "abstract"
       }
     ]
   },
@@ -3196,13 +3161,6 @@
         "label": "biomedical technique",
         "text_span": "Ussing chamber",
         "location": "abstract"
-      },
-      {
-        "start_idx": 1868,
-        "end_idx": 1876,
-        "label": "chemical",
-        "text_span": "succinate",
-        "location": "abstract"
       }
     ]
   },
@@ -3697,13 +3655,6 @@
         "end_idx": 493,
         "label": "gene",
         "text_span": "DJ-1",
-        "location": "abstract"
-      },
-      {
-        "start_idx": 1508,
-        "end_idx": 1511,
-        "label": "chemical",
-        "text_span": "meta",
         "location": "abstract"
       }
     ]
@@ -6611,13 +6562,6 @@
         "end_idx": 1438,
         "label": "drug",
         "text_span": "Ketamine",
-        "location": "abstract"
-      },
-      {
-        "start_idx": 1040,
-        "end_idx": 1057,
-        "label": "chemical",
-        "text_span": "plasma metabolites",
         "location": "abstract"
       }
     ]
