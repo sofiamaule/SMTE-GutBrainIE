@@ -928,6 +928,13 @@
         "location": "abstract"
       },
       {
+        "start_idx": 114,
+        "end_idx": 121,
+        "label": "chemical",
+        "text_span": "purified",
+        "location": "abstract"
+      },
+      {
         "start_idx": 123,
         "end_idx": 145,
         "label": "chemical",
@@ -1605,13 +1612,6 @@
         "location": "title"
       },
       {
-        "start_idx": 54,
-        "end_idx": 107,
-        "label": "statistical technique",
-        "text_span": "two-sample bidirectional Mendelian randomization study",
-        "location": "title"
-      },
-      {
         "start_idx": 58,
         "end_idx": 71,
         "label": "microbiome",
@@ -1679,13 +1679,6 @@
         "end_idx": 545,
         "label": "microbiome",
         "text_span": "gut microbiota",
-        "location": "abstract"
-      },
-      {
-        "start_idx": 615,
-        "end_idx": 634,
-        "label": "statistical technique",
-        "text_span": "sensitivity analyses",
         "location": "abstract"
       },
       {
@@ -1802,13 +1795,6 @@
         "end_idx": 392,
         "label": "statistical technique",
         "text_span": "two-sample bi-directional Mendelian randomisation analysis",
-        "location": "abstract"
-      },
-      {
-        "start_idx": 433,
-        "end_idx": 482,
-        "label": "statistical technique",
-        "text_span": "genome-wide association studies summary statistics",
         "location": "abstract"
       },
       {
@@ -2005,6 +1991,13 @@
         "location": "abstract"
       },
       {
+        "start_idx": 326,
+        "end_idx": 335,
+        "label": "chemical",
+        "text_span": "Aβ plaques",
+        "location": "abstract"
+      },
+      {
         "start_idx": 344,
         "end_idx": 348,
         "label": "anatomical location",
@@ -2163,6 +2156,13 @@
         "end_idx": 1246,
         "label": "animal",
         "text_span": "Wt and Tg mice",
+        "location": "abstract"
+      },
+      {
+        "start_idx": 1312,
+        "end_idx": 1321,
+        "label": "chemical",
+        "text_span": "Aβ plaques",
         "location": "abstract"
       },
       {
@@ -3293,20 +3293,6 @@
         "end_idx": 301,
         "label": "statistical technique",
         "text_span": "hypothesis-free Mendelian randomization (MR) analysis",
-        "location": "abstract"
-      },
-      {
-        "start_idx": 402,
-        "end_idx": 421,
-        "label": "statistical technique",
-        "text_span": "sensitivity analysis",
-        "location": "abstract"
-      },
-      {
-        "start_idx": 472,
-        "end_idx": 474,
-        "label": "statistical technique",
-        "text_span": "IVW",
         "location": "abstract"
       },
       {
@@ -6124,13 +6110,6 @@
         "location": "abstract"
       },
       {
-        "start_idx": 766,
-        "end_idx": 788,
-        "label": "statistical technique",
-        "text_span": "Machine-learning models",
-        "location": "abstract"
-      },
-      {
         "start_idx": 912,
         "end_idx": 916,
         "label": "anatomical location",
@@ -6191,13 +6170,6 @@
         "end_idx": 1263,
         "label": "DDF",
         "text_span": "metabolic disorders",
-        "location": "abstract"
-      },
-      {
-        "start_idx": 1367,
-        "end_idx": 1368,
-        "label": "bacteria",
-        "text_span": "AD",
         "location": "abstract"
       },
       {
@@ -7219,13 +7191,6 @@
         "end_idx": 1363,
         "label": "microbiome",
         "text_span": "gut microbiota",
-        "location": "abstract"
-      },
-      {
-        "start_idx": 1420,
-        "end_idx": 1422,
-        "label": "statistical technique",
-        "text_span": "ACE",
         "location": "abstract"
       },
       {
@@ -8282,13 +8247,6 @@
         "location": "abstract"
       },
       {
-        "start_idx": 503,
-        "end_idx": 512,
-        "label": "bacteria",
-        "text_span": "BrainBiota",
-        "location": "abstract"
-      },
-      {
         "start_idx": 549,
         "end_idx": 559,
         "label": "anatomical location",
@@ -9054,13 +9012,6 @@
         "end_idx": 1486,
         "label": "microbiome",
         "text_span": "gut microbiome",
-        "location": "abstract"
-      },
-      {
-        "start_idx": 1541,
-        "end_idx": 1552,
-        "label": "bacteria",
-        "text_span": "gut bacteria",
         "location": "abstract"
       },
       {
@@ -11840,6 +11791,13 @@
         "location": "title"
       },
       {
+        "start_idx": 41,
+        "end_idx": 47,
+        "label": "chemical",
+        "text_span": "metabol",
+        "location": "title"
+      },
+      {
         "start_idx": 33,
         "end_idx": 35,
         "label": "anatomical location",
@@ -13609,6 +13567,13 @@
         "location": "abstract"
       },
       {
+        "start_idx": 1159,
+        "end_idx": 1177,
+        "label": "chemical",
+        "text_span": "bioactive compounds",
+        "location": "abstract"
+      },
+      {
         "start_idx": 1331,
         "end_idx": 1352,
         "label": "drug",
@@ -13975,6 +13940,13 @@
         "end_idx": 610,
         "label": "animal",
         "text_span": "susceptible mice",
+        "location": "abstract"
+      },
+      {
+        "start_idx": 728,
+        "end_idx": 733,
+        "label": "chemical",
+        "text_span": "MR16-1",
         "location": "abstract"
       },
       {
