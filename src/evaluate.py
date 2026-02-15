@@ -2,8 +2,7 @@
 import json
 
 # DEFINE HERE THE PATH(S) TO YOUR PREDICTIONS
-PREDICTIONS_PATH_NER = 'C:/Users/super/Documents/UniPd/ATA/GutBrainIE/src/predictions/bert_NER_twopass26.json'
-PREDICTIONS_PATH_NERD = 'teamID_NERD_runID_systemDesc.json'
+PREDICTIONS_PATH_NER = ('C:/Users/super/Documents/UniPd/ATA/GutBrainIE/src/predictions/bert_NER_twopass_stage_training.json')
 PREDICTIONS_PATH_MENTION_LEVEL_RE = 'teamID_MENTION_LEVEL_RE_runID_systemDesc.json'
 PREDICTIONS_PATH_CONCEPT_LEVEL_RE = 'teamID_CONCEPT_LEVEL_RE_runID_systemDesc.json'
 
