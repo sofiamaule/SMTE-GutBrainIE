@@ -1,7 +1,7 @@
 import json
 
 # DEFINE HERE THE PATH(S) TO YOUR PREDICTIONS
-PREDICTIONS_PATH_6_1 = 'C:/Users/super/Documents/UniPd/ATA/GutBrainIE/src/predictions/2025/bert_NER_twopass_modified.json'
+PREDICTIONS_PATH_6_1 = '/ner/predictions/2025/bert_NER_twopass_modified.json'
 PREDICTIONS_PATH_6_2 = 'org_T621_BaselineRun_ATLOP.json'
 PREDICTIONS_PATH_6_3 = 'org_T622_BaselineRun_ATLOP.json'
 PREDICTIONS_PATH_6_4 = 'org_T623_BaselineRun_ATLOP.json'

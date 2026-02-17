@@ -2,14 +2,14 @@
 import json
 
 # DEFINE HERE THE PATH(S) TO YOUR PREDICTIONS
-PREDICTIONS_PATH_NER = ('C:/Users/super/Documents/UniPd/ATA/GutBrainIE/src/predictions/bert_NER_twopass_stage_training.json')
-PREDICTIONS_PATH_MENTION_LEVEL_RE = 'teamID_MENTION_LEVEL_RE_runID_systemDesc.json'
+PREDICTIONS_PATH_NER = ('C:/Users/super/Documents/UniPd/ATA/GutBrainIE/src/ner/predictions/bert_RE_dev_thr_0.65_eval_format.json')
+PREDICTIONS_PATH_MENTION_LEVEL_RE ='C:/Users/super/Documents/UniPd/ATA/GutBrainIE/src/re/predictions/bert_RE__thr_0.65_eval_format.json'
 PREDICTIONS_PATH_CONCEPT_LEVEL_RE = 'teamID_CONCEPT_LEVEL_RE_runID_systemDesc.json'
 
 # DEFINE HERE FOR WHICH SUBTASK(S) YOU WANT TO EVAL YOUR PREDICTIONS
-EVAL_NER = True
+EVAL_NER = False
 EVAL_NERD = False
-EVAL_MENTION_LEVEL_RE = False
+EVAL_MENTION_LEVEL_RE = True
 EVAL_CONCEPT_LEVEL_RE = False
 
 GROUND_TRUTH_PATH = "C:/Users/super/Documents/UniPd/ATA/GutBrainIE/data/GutBrainIE_Full_Collection_2026/Annotations/Dev/json_format/dev.json"

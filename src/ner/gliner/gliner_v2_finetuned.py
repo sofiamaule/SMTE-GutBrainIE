@@ -30,7 +30,7 @@ BASE_MODEL = "fastino/gliner2-base-v1"
 
 # Output dirs
 OUT_MODEL_DIR = Path(r"C:/Users/super/Documents/UniPd/ATA/GutBrainIE/src/ner/models/gliner_v2_finetuned")
-OUT_PRED_DIR = Path(r"C:/Users/super/Documents/UniPd/ATA/GutBrainIE/src/predictions")
+OUT_PRED_DIR = Path(r"/ner/predictions")
 
 # Inference threshold for dev prediction (tune later!)
 THRESHOLD = 0.33
