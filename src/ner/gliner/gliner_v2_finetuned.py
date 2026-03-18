@@ -29,7 +29,7 @@ DEV_JSON = DATA_DIR / "Dev/json_format/dev.json"
 BASE_MODEL = "fastino/gliner2-base-v1"
 
 # Output dirs
-OUT_MODEL_DIR = Path(r"C:/Users/super/Documents/UniPd/ATA/GutBrainIE/src/ner/models/gliner_v2_finetuned")
+OUT_MODEL_DIR = Path(r"/ner/models/old/gliner_v2_finetuned")
 OUT_PRED_DIR = Path(r"/ner/predictions")
 
 # Inference threshold for dev prediction (tune later!)
@@ -42,7 +42,7 @@ SEED = 42
 # -----------------------------
 DO_TRAIN = False          # ✅ metti False per NON rifare training
 DO_PREDICT_DEV = True     # lascia True per fare predizioni su dev
-ADAPTER_DIR = Path(r"C:\Users\super\Documents\UniPd\ATA\GutBrainIE\src\ner\models\gliner_v2_finetuned\best")
+ADAPTER_DIR = Path(r"/ner/models/old/gliner_v2_finetuned\best")
 
 
 # ============================================================
