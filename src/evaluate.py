@@ -3,7 +3,7 @@ import json
 
 # DEFINE HERE THE PATH(S) TO YOUR PREDICTIONS
 PREDICTIONS_PATH_NER = ('C:/Users/super/Documents/UniPd/ATA/GutBrainIE/src/ner/predictions/bert_RE_dev_thr_0.65_eval_format.json')
-PREDICTIONS_PATH_MENTION_LEVEL_RE ='C:/Users/super/Documents/UniPd/ATA/GutBrainIE/src/re/predictions/bert_re_inference_predicate_specific_improved.json'
+PREDICTIONS_PATH_MENTION_LEVEL_RE ='C:/Users/super/Documents/UniPd/ATA/GutBrainIE/src/re/predictions/inference_bert_biomedbert_re_A3_mentionmean.json'
 PREDICTIONS_PATH_CONCEPT_LEVEL_RE = 'teamID_CONCEPT_LEVEL_RE_runID_systemDesc.json'
 
 # DEFINE HERE FOR WHICH SUBTASK(S) YOU WANT TO EVAL YOUR PREDICTIONS
