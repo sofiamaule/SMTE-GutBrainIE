@@ -3,7 +3,8 @@ import json
 
 # DEFINE HERE THE PATH(S) TO YOUR PREDICTIONS
 PREDICTIONS_PATH_NER = ('C:/Users/super/Documents/UniPd/ATA/GutBrainIE/src/ner/predictions/pred_ensemble_hybrid_all.json')
-PREDICTIONS_PATH_MENTION_LEVEL_RE ='C:/Users/super/Documents/UniPd/ATA/GutBrainIE/src/re/predictions/ensemble_intersection.json'
+PREDICTIONS_PATH_MENTION_LEVEL_RE ='C:/Users/super/Documents/UniPd/ATA/GutBrainIE/src/re/predictions/inference_A5_llm_fallback.json'
+
 PREDICTIONS_PATH_CONCEPT_LEVEL_RE = 'teamID_CONCEPT_LEVEL_RE_runID_systemDesc.json'
 
 # DEFINE HERE FOR WHICH SUBTASK(S) YOU WANT TO EVAL YOUR PREDICTIONS
