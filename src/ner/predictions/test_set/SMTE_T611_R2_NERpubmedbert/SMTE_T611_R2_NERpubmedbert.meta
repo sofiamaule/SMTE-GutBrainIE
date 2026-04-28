@@ -1,0 +1,33 @@
+Team ID:         SMTE
+Task ID:         T611
+Run ID:          R2
+
+Type of training:
+  Fine-tuning of PubMedBERT on GutBrainIE 2026 training data
+  with token classification (BIO tagging, 27 labels).
+
+Pre-processing methods:
+  - Separate inference on title and abstract segments to preserve character offsets.
+  - BIO repair for malformed I-tags at sequence start.
+  - Two-pass thresholding: high-precision pass + recall-boost pass for
+    (chemical, bacteria, food, dietary supplement) labels.
+  - Label-aware post-processing: gene/chemical remap, food/dietary supplement remap,
+    FP filtering based on span text.
+  - Span score = median token probability.
+  - Deduplication and soft overlap pruning.
+  - Final dedup and overlap removal following the official evaluate.py logic.
+
+Training data used:
+  Gold + Silver + Bronze annotations from GutBrainIE 2026 training set.
+  Priority merge: when same PMID appears in multiple quality levels,
+  higher-quality annotation is kept.
+
+Relevant details of the run:
+  Single model: PubMedBERT (microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract)
+  Fine-tuned on Gold+Silver+Bronze with class-weighted cross-entropy,
+  lr=3e-5, 5 epochs, batch size 8 (grad accum 2 steps).
+  No ensemble — single model inference only.
+  Dev set results: Macro-F1=0.7973, Micro-F1=0.8270.
+
+GitHub repository:
+  https://github.com/sofiamaule/GutBrainIE.git
