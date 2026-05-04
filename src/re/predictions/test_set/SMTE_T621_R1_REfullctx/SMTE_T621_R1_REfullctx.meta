@@ -1,0 +1,31 @@
+Team ID:         SMTE
+Task ID:         T621
+Run ID:          R1
+
+Type of training:
+  Fine-tuning of PubMedBERT-large on GutBrainIE 2026 training data
+  with pairwise relation classification (18 classes: 17 predicates + no_relation).
+
+Pre-processing methods:
+  - Title and abstract concatenated; abstract offsets shifted by len(title)+1.
+  - Candidate pairs from all ordered (subject, object) entity pairs
+    in the legal-pair dictionary (52 type pairs, 55 patterns).
+  - Context: Full title+abstract context (A5-fullctx); 512-token truncation limit.
+  - Entity markers [E1]...[/E1] and [E2]...[/E2] inserted at mention boundaries.
+  - Mention-mean pooling over entity span hidden states.
+  - Hard negative sampling: 70% hard negatives + 30% easy negatives.
+  - Legal-only decoding with temperature scaling (T=1.25).
+  - Distance-aware minimum probability floor.
+  - Per-predicate threshold tuning (margin, min_prob, max_chars, top2_gap) on dev set.
+
+Training data used:
+  Gold + Silver + Silver 2025 + Bronze (4921 documents total).
+
+Relevant details of the run:
+  Model: PubMedBERT-large — folder: pubmedbert_large_re_A6_fullctx
+  Entity mentions: from NER ensemble predictions (SMTE_T611_R1_NERensemble).
+  lr=1e-5, 2 epochs, effective batch size 32, bf16, gradient checkpointing.
+  Dev results: Macro-F1=0.5149, Micro-F1=0.5961.
+
+GitHub repository:
+  https://github.com/sofiamaule/GutBrainIE.git
