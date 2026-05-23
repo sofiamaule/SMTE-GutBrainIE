@@ -114,6 +114,7 @@ GutBrainIE/
 ├── data/
 │   ├── GutBrainIE_Full_Collection_2025/       # Training data (2025 edition)
 │   └── GutBrainIE_Full_Collection_2026/       # Training data (2026 edition)
+│   └── SMTE_GutBrainIE_2026                   # final submission runs
 │
 ├── src/
 │   ├── ner/                                   # NER subtask (6.1.1)
@@ -142,10 +143,7 @@ GutBrainIE/
 │   │   └── bert_RE_inference_unified.ipynb    # Unified inference pipeline (R1 + R2)
 │   │
 │   ├── evaluate.py                            # Official evaluation script (2026)
-│   └── evaluate2025.py                        # Evaluation script (2025)
 │
-├── references.bib                             # BibTeX references
-├── SMTE_GutBrainIE2026.tex                   # CLEF 2026 working notes (LaTeX source)
 ├── README.md
 └── requirements.txt
 ```
@@ -155,7 +153,7 @@ GutBrainIE/
 ## Setup
 
 ```bash
-git clone https://github.com/sofiamaule/GutBrainIE.git
+git clone https://github.com/sofiamaule/SMTE-GutBrainIE.git
 cd GutBrainIE
 
 python -m venv venv
