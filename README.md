@@ -1,5 +1,5 @@
-# GutBrainIE — SMTE: NER & Mention-Level Relation Extraction for the Gut-Brain Axis
-
+# SMTE – GutBrainIE@CLEF 2026: Named
+Entity Recognition and Mention-Level Relation Extraction for the Gut-Brain Axis
 This repository contains the implementation of **SMTE**, our system developed for **Task 6 of the BioASQ CLEF Lab 2026 — GutBrainIE**, a shared task on structured information extraction from PubMed abstracts related to the gut microbiota and its connections with neurological and mental health conditions (Alzheimer's, Parkinson's, Multiple Sclerosis, ALS, and mental health disorders).
 
 The project is part of the EU-supported [HEREDITARY](https://hereditary.dei.unipd.it/challenges/gutbrainie/2026/) project.
